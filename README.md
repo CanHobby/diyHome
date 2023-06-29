@@ -5,4 +5,4 @@ This is my attempt at making a Home Assistant home automation system grared to t
 
 My goal is to make it as modular as possible, AND to include lots of comments - BOTH in the code and where applicable in the README files in each major subdiretory.
 
-I make the assumption that you know how to use the Arduino IDE to compile and upload code.
+I make the assumption that you know how to use the Arduino IDE to compile and upload code.  OTA upload is supported.
