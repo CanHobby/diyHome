@@ -9,8 +9,9 @@ I make the assumption that you know how to use the Arduino IDE to compile and up
 
 ### Nomeclature:
 
-The diyHome system consists of various submodules - notably
- -- Server - the Server is basically a WebPage to espNOW/MQTT gateway.
- -- Station - Stations are the controllers for individual entities such as lamps, relays, LEDs etc.  espNOW stations are part of this github repository.  For MQTT we highly recommend [Tasmota](https://tasmota.github.io/docs/).
+The diyHome system consists of various submodules - notably:
+
+    Server  - the Server is basically a WebPage to espNOW/MQTT gateway.
+    Station - Stations are the controllers for individual entities such as lamps, relays, LEDs etc.  espNOW stations are part of this github repository.  For MQTT we highly recommend [Tasmota](https://tasmota.github.io/docs/).
 
  I welcome suggestions and/or collaborations.
