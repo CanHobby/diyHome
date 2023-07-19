@@ -7,6 +7,13 @@ So far the ESP32 versions of diyHome supports all flavours of the ESP32 family. 
 
 into the File -> Preferences box of the IDE.
 
+## Libraries - you will need to install the following lbraries using the IDE Library Manager:
+Arduino_JSON  by Arduino
+
+the ESPAsyncWebServer will need to be downloaded from https://github.com/me-no-dev/ESPAsyncWebServer/tree/master
+            --  clone or unzip the code into your 4HOME/Arduino/libraries folder
+            
+
 diyHone makes extensive use of freeRTOS which makes it very modular.  The "diyHome.h" has defines near the top of the file which allow you to use or not use different modules.   for example:
 
 <code>
