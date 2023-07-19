@@ -3,7 +3,7 @@ DIY Home Automation using ESPnow inspired by Home Assistant
 
 So far the ESP32 versions of diyHome supports all flavours of the ESP32 family.  Most of my testing has been with an ESP32-S3.  The ES{32 Arduini Boards Package supports all versions of the MCU - The latest stable release can be installed using the IDE Boards Manager by adding the line:
 
-      <b>https://espressif.github.io/arduino-esp32/package_esp32_index.json</b>
+      >https://espressif.github.io/arduino-esp32/package_esp32_index.json
 
 into the File -> Preferences box of the IDE.
 
