@@ -11,7 +11,7 @@ into the File -> Preferences box of the IDE.
 Arduino_JSON  by Arduino
 
 the ESPAsyncWebServer will need to be downloaded from https://github.com/me-no-dev/ESPAsyncWebServer/tree/master
-            --  clone or unzip the code into your 4HOME/Arduino/libraries folder
+            --  clone or unzip the code into your $HOME/Arduino/libraries folder
             
 
 diyHone makes extensive use of freeRTOS which makes it very modular.  The "diyHome.h" has defines near the top of the file which allow you to use or not use different modules.   for example:
