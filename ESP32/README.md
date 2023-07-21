@@ -20,7 +20,7 @@ use git clone ....  or download the ".zip" into your $HOME/Arduino/libraries fol
 <li>UnZip it into the 'tools' directory.</li>
 <li>Close the IDE and Open it again - You should see an Option for "ESP32 Sketch Data Upload".<br>
 just above the Board Selector in the tools menu dropdown.</li>
-</ul>
+</ul><br>
 <b>diyHone</b> makes extensive use of freeRTOS which makes it very modular.  The "diyHome.h" has defines near the top of the file which allow you to use or not use different modules.   for example:
 
 <code>
