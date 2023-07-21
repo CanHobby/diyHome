@@ -12,7 +12,7 @@ into the File -> Preferences box of the IDE.
 
 <h3>External Libraries - you will need to download the following libraries from github:</h3>
 use git clone ....  or download the ".zip" into your $HOME/Arduino/libraries folder.<br><br>
-<ul><li>ESPAsyncWebServer will need to be downloaded from: <a href=https://github.com/me-no-dev/ESPAsyncWebServer/tree/master target=_blank>ESPAsyncWebServer</a></li></ul>
+<ul><li>ESPAsyncWebServer will need to be downloaded from: <a href="https://github.com/me-no-dev/ESPAsyncWebServer" target="_blank">ESPAsyncWebServer</a></li></ul>
 <ul><li>ESPAsyncWebServer depends on <a href=https://github.com/me-no-dev/AsyncTCP target=_blank> AsyncTCP</a></li></ul><br>
 
 
