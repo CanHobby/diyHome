@@ -10,7 +10,10 @@ into the File -> Preferences box of the IDE.
 ## Libraries - you will need to install the following lbraries using the IDE Library Manager:
 Arduino_JSON  by Arduino
 
-the ESPAsyncWebServer will need to be downloaded from https://github.com/me-no-dev/ESPAsyncWebServer/tree/master
+## External Libraries - you will need to download the following lbraries from github: (git clone works reak nice) 
+the ESPAsyncWebServer will need to be downloaded from https://github.com/me-no-dev/ESPAsyncWebServer/tree/master<br>
+            --  clone or unzip the code into your $HOME/Arduino/libraries folder<br>
+the ESPAsyncWebServer depends on [https://github.com/me-no-dev/ESPAsyncWebServer/tree/master](https://github.com/me-no-dev/AsyncTCP)<br>
             --  clone or unzip the code into your $HOME/Arduino/libraries folder
             
 
