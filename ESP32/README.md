@@ -14,9 +14,14 @@ into the File -> Preferences box of the IDE.
 use git clone ....  or download the ".zip" into your $HOME/Arduino/libraries folder.<br><br>
 <ul><li>ESPAsyncWebServer will need to be downloaded from: <a href="https://github.com/me-no-dev/ESPAsyncWebServer" target="_blank">ESPAsyncWebServer</a></li></ul>
 <ul><li>ESPAsyncWebServer depends on: <a href="https://github.com/me-no-dev/AsyncTCP" target="_blank"> AsyncTCP</a></li></ul><br>
-
-
-diyHone makes extensive use of freeRTOS which makes it very modular.  The "diyHome.h" has defines near the top of the file which allow you to use or not use different modules.   for example:
+<h3>The ESP32FS Spiffs File System Upload Tool needs to be installed in the IDE</h3>
+<ul><li>Make a new subdiectory named 'tools' in your "Arduino" folder.</li>
+<li>Go to the <a href=https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/>Release Page</a>, left click on ESP32FS-1.1.zip and download it.
+<li>UnZip it into the 'tools' directory.</li>
+      <li>Close the IDE and Open it again - You should see an Option for "ESP32 Sketch Data Upload".<br>
+      just above the Board Selector in the tools menu dropdown</li>
+</ul>
+<b>diyHone</b> makes extensive use of freeRTOS which makes it very modular.  The "diyHome.h" has defines near the top of the file which allow you to use or not use different modules.   for example:
 
 <code>
 #define use_NTP    //    include the NTP internet time routines
