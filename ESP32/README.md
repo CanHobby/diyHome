@@ -7,14 +7,15 @@ So far the ESP32 versions of diyHome supports all flavours of the ESP32 family. 
 
 into the File -> Preferences box of the IDE.
 
-## Libraries - you will need to install the following lbraries using the IDE Library Manager:
+### Libraries - you will need to install the following libraries using the IDE Library Manager:
 Arduino_JSON  by Arduino
 
-## External Libraries - you will need to download the following lbraries from github: (git clone works reak nice) 
-the ESPAsyncWebServer will need to be downloaded from https://github.com/me-no-dev/ESPAsyncWebServer/tree/master<br>
-            --  clone or unzip the code into your $HOME/Arduino/libraries folder<br>
-the ESPAsyncWebServer depends on [ ESPAsyncWebServer/tree/master ](https://github.com/me-no-dev/AsyncTCP)<br>
-            --  clone or unzip the code into your $HOME/Arduino/libraries folder
+<h3>External Libraries - you will need to download the following libraries from github:</h3>
+<h6>(git clone works reak nice)</h6> <br>
+the ESPAsyncWebServer will need to be downloaded from [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer/tree/master)<br>
+	--  clone or unzip the code into your $HOME/Arduino/libraries folder<br>
+the ESPAsyncWebServer depends on [ AsyncTCP ](https://github.com/me-no-dev/AsyncTCP)<br>
+	--  clone or unzip the code into your $HOME/Arduino/libraries folder
             
 [ Test ]( https:Opi0 )
 
