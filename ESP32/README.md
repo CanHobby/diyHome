@@ -13,9 +13,10 @@ Arduino_JSON  by Arduino
 ## External Libraries - you will need to download the following lbraries from github: (git clone works reak nice) 
 the ESPAsyncWebServer will need to be downloaded from https://github.com/me-no-dev/ESPAsyncWebServer/tree/master<br>
             --  clone or unzip the code into your $HOME/Arduino/libraries folder<br>
-the ESPAsyncWebServer depends on [https://github.com/me-no-dev/ESPAsyncWebServer/tree/master](https://github.com/me-no-dev/AsyncTCP)<br>
+the ESPAsyncWebServer depends on [ ESPAsyncWebServer/tree/master ](https://github.com/me-no-dev/AsyncTCP)<br>
             --  clone or unzip the code into your $HOME/Arduino/libraries folder
             
+[ Test ]( https:Opi0 )
 
 diyHone makes extensive use of freeRTOS which makes it very modular.  The "diyHome.h" has defines near the top of the file which allow you to use or not use different modules.   for example:
 
