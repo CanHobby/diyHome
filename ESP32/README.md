@@ -13,7 +13,8 @@ into the File -> Preferences box of the IDE.
 <h3>External Libraries - you will need to download the following libraries from github:</h3>
 use git clone ....  or download the ".zip" into your $HOME/Arduino/libraries folder.<br><br>
 <ul><li>ESPAsyncWebServer will need to be downloaded from: <a href="https://github.com/me-no-dev/ESPAsyncWebServer" target="_blank">ESPAsyncWebServer</a></li></ul>
-<ul><li>ESPAsyncWebServer depends on: <a href="https://github.com/me-no-dev/AsyncTCP" target="_blank"> AsyncTCP</a></li></ul><br>
+<ul><li>ESPAsyncWebServer depends on: <a href="https://github.com/me-no-dev/AsyncTCP" target="_blank"> AsyncTCP</a></li></ul>
+<ul><li>If you plan on using MQTT (ie Tasmota) and have use_MQTT defined, you will need the <a href="https://github.com/knolleary/pubsubclient/archive/refs/tags/v2.8.zip" target="_blank">PubSubClient</a></li></ul>
 <h3>The ESP32FS Spiffs File System Upload Tool needs to be installed in the IDE</h3>
 <ul><li>Make a new subdiectory named 'tools' in your "Arduino" folder.</li>
 <li>Go to the <a href=https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/>Release Page</a>, click on ESP32FS-1.1.zip and download it.
@@ -24,6 +25,7 @@ just above the Board Selector in the tools menu dropdown.</li>
 <b>diyHone</b> makes extensive use of freeRTOS which makes it very modular.  The "diyHome.h" has defines near the top of the file which allow you to use or not use different modules.   for example:
 
 <code>
+#define use_MQTT   //    include the MQTT Pub / Sub routines.
 #define use_NTP    //    include the NTP internet time routines
 #define use_Weath  //    include the openweathermap internet weather routines.
 #define use_FCast  //    include the openweathermap internet weather forecast routines.
