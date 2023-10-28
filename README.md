@@ -28,6 +28,6 @@ Station: Stations are the controllers for individual entities such as lamps, rel
 
  Once you have your server MCU in place go to the <a href="https://github.com/CanHobby/nowSrvr32" target-_blank>Server Code Repo</a> and clone or UnZip the Repo into you Arduino Sketches directory.  Further details are in the Repo README.
 
- have fun...   please...
+ have fun...
 
  
